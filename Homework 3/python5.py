@@ -12,7 +12,7 @@ import zipfile
 import matplotlib.pyplot as plt
 
 pd.set_option('max_rows', 20)
-# loading the proper file from the location on the web
+
 os.chdir('C:\\Users\\george\\assignment3')
 webpath = 'http://wwwn.cdc.gov/Nchs/Nhanes/2003-2004/PAXRAW_C.ZIP'
 request.urlretrieve(webpath, "tmp.zip")
